@@ -1,16 +1,131 @@
-# React + Vite
+# UI Page React
+A modern and responsive UI landing page built with React and Vite.  
+This project focuses on clean component architecture, responsive layouts, reusable UI sections, and modern frontend development practices.
+---
+## 🚀 Live Demo
+https://akhil9982.github.io/ui-page-react/
+---
+## 📌 Features
+- Responsive Modern UI
+- Reusable React Components
+- Clean Layout Structure
+- Component-Based Architecture
+- Fast Build and Development using Vite
+- Organized Folder Structure
+- Modern CSS Styling
+---
+## 🛠️ Tech Stack
+- React.js
+- Vite
+- JavaScript
+- CSS3
+- HTML5
+---
+## 📂 Folder Structure
+```bash
+ui_project/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │   └── SP_ui.png
+│   │
+│   ├── components/
+│   │   └── Section1/
+│   │       ├── Arrow.jsx
+│   │       ├── HeroText.jsx
+│   │       ├── LeftContent.jsx
+│   │       ├── Navbar.jsx
+│   │       ├── Page1Content.jsx
+│   │       ├── RightCard.jsx
+│   │       ├── RightCardContent.jsx
+│   │       ├── RightContent.jsx
+│   │       └── Section1.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+⸻
 
-Currently, two official plugins are available:
+⚙️ Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Clone the repository:
 
-## React Compiler
+git clone https://github.com/Akhil9982/ui-page-react.git
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Navigate to the project directory:
 
-## Expanding the ESLint configuration
+cd ui-page-react
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+
+⸻
+
+📦 Production Build
+
+npm run build
+
+Preview production build locally:
+
+npm run preview
+
+⸻
+
+🌐 Deployment
+
+This project is deployed using GitHub Pages.
+
+Deployment command:
+
+npm run deploy
+
+⸻
+
+📸 Screenshot
+
+Add your UI screenshot here.
+
+Example:
+
+src/assets/SP_ui.png
+
+⸻
+
+🎯 Learning Objectives
+
+This project was built to practice:
+
+* React component design
+* UI structuring
+* Responsive layouts
+* Props and component composition
+* Project organization
+* Frontend deployment workflow
+
+⸻
+
+👨‍💻 Author
+
+Akhil Battula
+
+GitHub: https://github.com/Akhil9982
+
+LinkedIn: https://www.linkedin.com/in/akhilbattula/
+
+⸻
+
+📄 License
+
+This project is licensed under the MIT License.
